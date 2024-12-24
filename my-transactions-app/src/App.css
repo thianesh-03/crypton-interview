@@ -1,0 +1,46 @@
+.app {
+  padding: 20px;
+}
+
+.transaction-list {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-list h2 {
+  margin-bottom: 15px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.transaction-info {
+  display: flex;
+  align-items: center;
+}
+
+.transaction-info .name {
+  margin-right: 10px;
+}
+
+.transaction-info .amount {
+  color: #007bff; 
+}
+
+.transaction .date {
+  color: #888;
+}
+
+
+@media (max-width: 768px) {
+  .transaction-list {
+    padding: 10px;
+  }
+}
+
