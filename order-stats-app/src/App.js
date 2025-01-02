@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import OrderStatsApp from './OrderStatsApp';
 
-class App extends Component {
-  render() {
-    <OrderStatsApp/>
-  }
+function App() {
+  return (
+    <div className="App">
+      <OrderStatsApp />
+    </div>
+  );
 }
 
 export default App;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import WidgetOrderStats from './WidgetOrderStats';
-import './App.css';
+
 
 function OrderStatsApp() {
   const [statsData, setStatsData] = useState([]);
